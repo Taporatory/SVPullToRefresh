@@ -18,6 +18,8 @@
 typedef NS_ENUM(NSUInteger, SVPullToRefreshPosition) {
     SVPullToRefreshPositionTop = 0,
     SVPullToRefreshPositionBottom,
+    SVPullToRefreshPositionLeft,
+    SVPullToRefreshPositionRight,
 };
 
 - (void)addPullToRefreshWithActionHandler:(void (^)(void))actionHandler;
